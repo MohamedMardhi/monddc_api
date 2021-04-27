@@ -1,0 +1,27 @@
+{
+  "name": "monddc_api",
+  "version": "1.0.0",
+  "description": "monddc Backend using mongodb express nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedMardhi/monddc_api.git"
+  },
+  "author": "MMARDHI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedMardhi/monddc_api/issues"
+  },
+  "homepage": "https://github.com/MohamedMardhi/monddc_api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
