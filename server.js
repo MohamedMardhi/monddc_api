@@ -1,10 +1,15 @@
 const express = require('express');
 const dotenv = require('dotenv');
 
- dotenv.config({path: './config/config.env'});
+// Route Files
+const dossierdc = require('./routes/dossierdecompetences');
 
- const app = express();
+dotenv.config({path: './config/config.env'});
 
+const app = express();
+
+app.use('/api/v1/dossierdc', dossierdc)
+ 
  const PORT = process.env.PORT || 5000;
 
  app.listen(PORT, () => {
