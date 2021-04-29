@@ -1,5 +1,7 @@
 # MONDDC Project
 
+## INSTRUCTION FOR DOCKER
+
 Build an image 
 `
 docker-compose build
