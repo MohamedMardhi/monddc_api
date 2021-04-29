@@ -10,7 +10,7 @@ const app = express();
 
 app.use('/api/v1/dossierdc', dossierdc)
  
- const PORT = process.env.PORT || 5000;
+ const PORT = process.env.PORT || 8000;
 
  app.listen(PORT, () => {
      console.log(`App listening on port ${PORT} running on ${process.env.NODE_ENV} mode!`);
