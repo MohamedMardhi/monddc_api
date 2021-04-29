@@ -45,4 +45,3 @@ services:
       - .:/app
     links:
       - mysql-db
-    command: npm start
