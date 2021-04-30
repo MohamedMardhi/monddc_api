@@ -6,7 +6,7 @@ const morgan = require('morgan');
 //var fs = require('fs')
 //var path = require('path')
 // Route Files
-const dossierdc = require('./routes/dossierdecompetences');
+const dossierdc = require('./src/routes/dossierdecompetences');
 
 dotenv.config({path: './config/config.env'});
 

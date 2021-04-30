@@ -1,0 +1,16 @@
+{
+    "development": {
+      "username": "sampleuser",
+      "password": "samplepassword",
+      "database": "sampledb",
+      "host": "127.0.0.1:8080",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "sampleuser",
+      "password": "samplepassword",
+      "database": "sampledb",
+      "host": "127.0.0.1:8080",
+      "dialect": "mysql"
+    }
+  }
