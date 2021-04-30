@@ -12,11 +12,8 @@ dotenv.config({path: './config/config.env'});
 
 const app = express();
 
-var corsOptions = {
-    origin: "http://localhost:8081"
-};
   
-app.use(cors(corsOptions));
+app.use(cors());
 // LOGS  MIDDLEWARE only on dev mode
 if(process.env.NODE_ENV === 'developement'){
     app.use(morgan('dev'))
